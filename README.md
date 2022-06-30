@@ -1,13 +1,6 @@
 # Guía rápida de Markdown
 
-<!--
-por Raúl Federico Lacabanne (aka: knnv)
-
-Referencias principales:
-https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
-
-https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf
--->
+Realizada por Raúl Federico Lacabanne (aka: knnv-ar) en estrecha relación a los documentos de la referencia. Fecha: 2022/06/30
 
 ---
 
@@ -135,3 +128,9 @@ function test() {
 ![Google Logo](/images/google-logo-6.png)
 
 Formato: `![texto alternativo](url)`
+
+## Referencias:
+
+https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
+https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf
