@@ -6,17 +6,17 @@ Realizada por Raúl Federico Lacabanne (aka: knnv-ar) en estrecha relación a lo
 
 ## Encabezados
 
-# Heading 1
+# Encabezado 1 (h1)
 
-## Heading 2
+## Encabezado 1 (h2)
 
-### Heading 3
+### Encabezado 3 (h3)
 
-#### Heading 4
+#### Encabezado 4 (h4)
 
-##### Heading 5
+##### Encabezado 5 (h5)
 
-###### Heading 6
+###### Encabezado 6 (h6)
 
 ---
 
@@ -134,88 +134,3 @@ Formato: `![texto alternativo](url)`
 https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
 https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf
-
------------------------------
-## CLASE29 final
-
-### ALIAS
-
-```sql
-SELECT title AS titulo, rating * 10 AS 'rating de la peli' FROM movies
-```
-
-### Funciones de alteración
-
-CONCAT:
-
-```sql
-SELECT CONCAT (first_name, " ", last_name) AS nombre_completo
-FROM actors
-```
-
-```sql
-SELECT title, name
-FROM movies
-LEFT JOIN genres ON genre_id = genre.id
-```
-
-COALESCE:
-
-```sql
-SELECT title, COALESCE (name, 'No tiene género')
-FROM movies
-LEFT JOIN genres ON genre_id = genre.id
-```
-
-DATEDIFF:
-
-```sql
-SELECT title, DATEDIFF(NOW(), release_date)
-FROM movies
-```
-
-```sql
-SELECT title, YEAR(release_date)
-FROM movies
-```
-
-DATEDIFF:
-
-```sql
-SELECT title, EXTRACT(day FROM release_date)
-FROM movies
-```
-
-DATE_FORMAT:
-
-```sql
-SELECT title, DATE_FORMAT(release_date, "%d/%m/%Y")
-FROM movies
-```
-
-REPLACE:
-
-```sql
-SELECT REPLACE(title, "Harry", "Juanito")
-FROM movies
-```
-
-LENGTH:
-
-```sql
-SELECT title
-FROM movies
-WHERE LENGTH(title) > 5
-```
-
-CASE:
-
-```sql
-SELECT title, rating
-CASE 
-  WHEN rating < 5 THEN "Mala"
-  WHEN rating < 7 THEN "Buena"
-  ELSE "Muy buena"
-END
-FROM movies
-```
