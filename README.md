@@ -38,9 +38,23 @@ _\cursiva_\: _Este texto está en cursiva._
 
 **_Todo este texto es importante_**
 
+Este texto tiene <u>unas palabras subrayadas</u> y otras no.
+
+Y este otro texto ¡<u>**_tiene unas palabras muy resaltadas_**</u>!
+
 La última palabra está escrita como <sup>superíndice</sup>.
 
 La última palabra está escrita como <sub>subíndice</sub>.
+
+---
+
+## Cita de texto
+
+Según las normas APA si el texto a citar tiene menos de 40 palabras "se debe poner así, entre comillas dobles".
+
+Pero si el texto a citar tiene 40 o más palabras debe ser citado de la siguiente manera:
+
+> Esta va a ser una cita muy larga, es decir, va a tener 40 o más palabras y la verdad es que no tengo otra cosa más que decir porque ya he dicho todo lo que tenía que expresar. Adios. (Lacabanne, 2022, pp 50-51)
 
 ---
 
@@ -80,17 +94,21 @@ http://github.com - enlace automático
 
 ---
 
-## Cita de texto
+## Imágenes
 
-Según las normas APA si el texto a citar tiene menos de 40 palabras "se debe poner así, entre comillas dobles".
+**Se recomienda guardar las imágenes en una carpeta específica como por ejemplo `images`:**
 
-Pero si el texto a citar tiene 40 o más palabras debe ser citado de la siguiente manera:
+![GitHub Logo](/images/GitHub_Logo.png)
 
-> Esta va a ser una cita muy larga, es decir, va a tener 40 o más palabras y la verdad es que no tengo otra cosa más que decir porque ya he dicho todo lo que tenía que expresar. Adios. (Lacabanne, 2022, pp 50-51)
+![GitHub White Logo](/images/GitHub_Logo_White.png)
+
+![Google Logo](/images/google-logo-6.png)
+
+Formato: `![texto alternativo](url)`
 
 ---
 
-## Códigos
+## Código
 
 **Código o comandos en la linea de texto:**
 
@@ -123,14 +141,14 @@ function test() {
 **Diferencias de código**
 
 ```diff
-- This line is removed.
-+ This line is added.
+- Esta linea fue removida.
++ Se agregó esta linea.
 ```
 
 ## Contenido colapsable
    
 <details>
-  <summary>Click acá</summary>
+  <summary>Para ver el ejemplo haga click acá</summary>
   
   ### Título
   1. Foo
@@ -149,145 +167,17 @@ function test() {
 
 ---
 
-## Imágenes
 
-**Se recomienda guardar las imágenes en una carpeta específica como por ejemplo `images`:**
+## Recursos
 
-![GitHub Logo](/images/GitHub_Logo.png)
+[La guía original de Markdown escrita por su creador](https://daringfireball.net/projects/markdown/)
 
-![GitHub White Logo](/images/GitHub_Logo_White.png)
+[Tutorial interactivo de Markdown en castellano](https://www.markdowntutorial.com/es/)
 
-![Google Logo](/images/google-logo-6.png)
+[Una serie de recursos sobre Markdown](https://github.com/mundimark/awesome-markdown)
 
-Formato: `![texto alternativo](url)`
-
-
-## Referencias:
+## Otras referencias
 
 https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
 https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf
-
-## Recursos
-
-[Tutorial interactivo en castellano](https://www.markdowntutorial.com/es/)
-
----
-https://github.com/zairahira/Markdown-cheatsheet/edit/main/README.md
-
-# heading 1
-## heading 2
-### heading 3
-### heading 4
-#### heading 5
-
-<!-- Italics -->
-*this text is italics*
-
-_italic_
-
-<!-- Bold -->
-**bold**
-
-<!-- Strike Through-->
-~~strike~~
-
-<!-- Horizontal Line -->
-
---- 
-___
-
-## Block quotes
-
-<!-- Block quote -->
-> this is a block
-
-## Links
-<!--  links -->
-[This is a link](inserlink.com)
-
-[This is a link with tooltip](inserlink.com "tooltip")
-
-## Lists
-
-<!-- Unordered List -->
-* item1
-    * item2
-
-<!--Ordered List-->
-
-1. first item
-2. second item
-
-## Inline code block
-<!-- inline code block-->
-`<p></p>`
-
-## Images
-<!--Images-->
-
-![Hollow Knight](hollo.jpg)
-
-
-<!-- github md-->
-
-## Code Blocks
-### Bash code block
-
-<!-- Bash script block -->
-
-```bash
-    npm install
-    
-```
-### JS code block
-
-<!-- JS Block-->
-
-```javascript
-function add(num1, num2){
-
-}
-
-```
-### Python code block
-
-<!-- Python block-->
-
-```python
-print("Hi there")
-```
-
-## Task list
-<!-- task list -->
-* [x] done
-* [ ] not done
-
-## Tables
-<!-- tables -->
-<!-- Note that :---: means center aligned -->
-<!-- Note that ---: means right aligned -->
-<!-- Note that :--- means left aligned -->
-
-| Column 1 | Column 2 | Column 3 |
-| :---: | :--- | ---: |
-| Row 1, Column 1 | Row 1, Column 2 | Row 1, Column 3 |
-| Row 2, Column 1 | Row 2, Column 2 | Row 2, Column 3 |
-| Row 3, Column 1 | Row 3, Column 2 | Row 3, Column 3 |
-
-## Diff
-<!-- Diff -->
-```diff
-- This line is removed.
-+ This line is added.
-```
-
-## Collapsible content
-   <details>
-          <summary>Click to see more!</summary>
-          
-            ## More awesoms tips!
-
-            - item 1 
-            - item 2
-        </details>
