@@ -2,9 +2,9 @@
 
 Realizada por Raúl Federico Lacabanne (aka: knnv-ar) en estrecha relación a los documentos de la referencia. Fecha: 2022/06/30
 
----
-
 ## Encabezados
+
+Markdown dispone de seis tañamos de encabezados:
 
 # Encabezado 1 (h1)
 
@@ -28,7 +28,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec finibus et nulla 
 
 ## Estilos de texto
 
-_Este texto está en cursiva._
+_\cursiva_\: _Este texto está en cursiva._
 
 **Este texto está en negrita.**
 
@@ -61,6 +61,11 @@ La última palabra está escrita como <sub>subíndice</sub>.
    - Item 3a
    - Item 3b
 
+**Lista de tareas**
+
+* [x] Escribir anteproyecto (realizado)
+* [ ] Corregir anteproyecto (pendiente)
+
 ---
 
 ## Enlaces
@@ -85,7 +90,7 @@ Pero si el texto a citar tiene 40 o más palabras debe ser citado de la siguient
 
 ---
 
-## Cita de texto
+## Códigos
 
 **Código o comandos en la linea de texto:**
 
@@ -108,12 +113,39 @@ git push -u origin main
 
 Observen que el ejemplo anterior se colorea distinto que el siguiente porque Markdown sigue un patrón de distribución de color en relación al lenguaje que se haya determinado al principio del bloque: el primero corresponde a Bash y el segundo a JavaScript:
 
-```javascript
+```js
 // Ejemplo en script en Javascript
 function test() {
   console.log("look ma`, no spaces");
 }
 ```
+
+**Diferencias de código**
+
+```diff
+- This line is removed.
++ This line is added.
+```
+
+## Contenido colapsable
+   
+<details>
+  <summary>Click acá</summary>
+  
+  ### Título
+  1. Foo
+  2. Bar
+     * Baz
+     * Qux
+
+  ### El código
+
+  ```js
+  function logSomething(something) {
+    console.log('Something', something);
+  }
+  ```
+</details>
 
 ---
 
@@ -129,8 +161,133 @@ function test() {
 
 Formato: `![texto alternativo](url)`
 
+
 ## Referencias:
 
 https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
 https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf
+
+## Recursos
+
+[Tutorial interactivo en castellano](https://www.markdowntutorial.com/es/)
+
+---
+https://github.com/zairahira/Markdown-cheatsheet/edit/main/README.md
+
+# heading 1
+## heading 2
+### heading 3
+### heading 4
+#### heading 5
+
+<!-- Italics -->
+*this text is italics*
+
+_italic_
+
+<!-- Bold -->
+**bold**
+
+<!-- Strike Through-->
+~~strike~~
+
+<!-- Horizontal Line -->
+
+--- 
+___
+
+## Block quotes
+
+<!-- Block quote -->
+> this is a block
+
+## Links
+<!--  links -->
+[This is a link](inserlink.com)
+
+[This is a link with tooltip](inserlink.com "tooltip")
+
+## Lists
+
+<!-- Unordered List -->
+* item1
+    * item2
+
+<!--Ordered List-->
+
+1. first item
+2. second item
+
+## Inline code block
+<!-- inline code block-->
+`<p></p>`
+
+## Images
+<!--Images-->
+
+![Hollow Knight](hollo.jpg)
+
+
+<!-- github md-->
+
+## Code Blocks
+### Bash code block
+
+<!-- Bash script block -->
+
+```bash
+    npm install
+    
+```
+### JS code block
+
+<!-- JS Block-->
+
+```javascript
+function add(num1, num2){
+
+}
+
+```
+### Python code block
+
+<!-- Python block-->
+
+```python
+print("Hi there")
+```
+
+## Task list
+<!-- task list -->
+* [x] done
+* [ ] not done
+
+## Tables
+<!-- tables -->
+<!-- Note that :---: means center aligned -->
+<!-- Note that ---: means right aligned -->
+<!-- Note that :--- means left aligned -->
+
+| Column 1 | Column 2 | Column 3 |
+| :---: | :--- | ---: |
+| Row 1, Column 1 | Row 1, Column 2 | Row 1, Column 3 |
+| Row 2, Column 1 | Row 2, Column 2 | Row 2, Column 3 |
+| Row 3, Column 1 | Row 3, Column 2 | Row 3, Column 3 |
+
+## Diff
+<!-- Diff -->
+```diff
+- This line is removed.
++ This line is added.
+```
+
+## Collapsible content
+   <details>
+          <summary>Click to see more!</summary>
+          
+            ## More awesoms tips!
+
+            - item 1 
+            - item 2
+        </details>
