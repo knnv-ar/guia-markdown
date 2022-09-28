@@ -167,6 +167,9 @@ function test() {
 
 ---
 
+## Editor Markdowm online
+
+[Dillinger](https://dillinger.io/)
 
 ## Recursos
 
@@ -174,10 +177,16 @@ function test() {
 
 [Tutorial interactivo de Markdown en castellano](https://www.markdowntutorial.com/es/)
 
-[Una serie de recursos sobre Markdown](https://github.com/mundimark/awesome-markdown)
+[Escribir en Markdown](https://www.argentina.gob.ar/contenidosdigitales/markdown)
 
-## Otras referencias
+[Cómo escribir en lenguaje Markdown](https://www.buenosaires.gob.ar/jefaturadegabinete/innovacion/experiencia-digital/contenidos-digitales/como-escribir-en-markdown)
 
-https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+[The Markdown Guide](https://www.markdownguide.org/)
 
-https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf
+[Markdown Guide Github Resources](https://github.com/mattcone/markdown-guide)
+
+[Awesome Markdown Github Resources](https://github.com/mundimark/awesome-markdown)
+
+[Acerca de escritura y formato en GitHub](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github)
+
+[Markdown syntax & Github Flavored Markdown Cheet Sheet]()https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf
